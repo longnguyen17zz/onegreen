@@ -54,7 +54,7 @@ function App() {
         {images.map((img, index) => (
           <div
             key={index}
-            className="border p-2 flex justify-center items-center rounded shadow-lg"
+            className="border p-2 flex justify-center items-center bg-[lightgray] hover:cursor-pointer rounded shadow-lg"
           >
             {loading ? (
               <div className="w-full h-40 bg-gray-300 animate-pulse"></div>
