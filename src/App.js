@@ -1,7 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useEffect } from "react";
+import findMissingNumber from "./Task/Task1";
+import isValidPassword from "./Task/Task2";
 
 function App() {
+  useEffect(() => {
+    console.log(findMissingNumber([1, 2, 3, 5]));
+    console.log("Password Validity:", isValidPassword("Hello@123"));
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
