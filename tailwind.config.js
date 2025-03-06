@@ -8,4 +8,7 @@ module.exports = {
   cursor: {
     pointer: "pointer",
   },
+  screens: {
+    smm: "550px",
+  },
 };
